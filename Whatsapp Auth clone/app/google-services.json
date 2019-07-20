@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "160763541775",
+    "firebase_url": "https://whats-app-colne.firebaseio.com",
+    "project_id": "whats-app-colne",
+    "storage_bucket": "whats-app-colne.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160763541775:android:09db7abb9c93eef3",
+        "android_client_info": {
+          "package_name": "com.stwalkerster.android.apps.whatsappclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160763541775-muse8occ2ovi2flvuvgvbvp84k03v2ie.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stwalkerster.android.apps.whatsappclone",
+            "certificate_hash": "879c63af80e8220408466ecf71bf49b8cfcd98d2"
+          }
+        },
+        {
+          "client_id": "160763541775-o8qr517o7h980mv2mgh5a6aai239goo6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI8v0OMGMUjRJ2xfVENuRMBOlc1R91JiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160763541775-o8qr517o7h980mv2mgh5a6aai239goo6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgr"
+   >
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/glass"
+        android:layout_centerInParent="true"
+        android:id="@+id/bottle"
+        android:onClick="bottleSpinner"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="@string/truth_amp_dare"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+       android:fontFamily="@font/ss" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/bottle"
+        android:layout_margin="20dp"
+        android:text="@string/tap_on_bottle"
+        android:id="@+id/txt"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+</RelativeLayout>

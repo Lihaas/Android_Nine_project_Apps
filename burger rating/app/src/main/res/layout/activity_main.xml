@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/burger">
+
+  <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:cardCornerRadius="20dp"
+      android:layout_margin="20dp"
+      app:cardBackgroundColor=" #98000000"
+      >
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+          <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="300dp"
+              android:src="@drawable/clip" />
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textColor="#ffffff"
+              android:textSize="30sp"
+              android:text="Burger Boss"
+              android:gravity="center"/>
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#546E7A"
+            android:layout_gravity="center"
+            android:rating="4"
+            android:id="@+id/rate"/>
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textColor="#ffffff"
+              android:text="Ingerideant includes"
+              android:layout_marginLeft="10dp"
+              android:gravity="center"/>
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textColor="#ffffff"
+              android:text="1.Fresh Tomato Pices \n2.Fine Bun Of bread \n3.Fully Loaded Chess\n4.Three Different Souse"
+              android:layout_marginLeft="10dp"/>
+
+          <Button
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@android:color/transparent"
+              android:text="Buy"
+              android:textColor="#ffffff"
+              android:textSize="20sp"
+              android:id="@+id/buy"/>
+
+
+
+
+
+
+
+
+
+
+      </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+  </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
